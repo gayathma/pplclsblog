@@ -1,0 +1,117 @@
+.bars .progress {
+    height: 10px;
+    background: #f7f7f7;
+    overflow: visible;
+    border-radius: 0;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    -khtml-border-radius: 0;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    margin-bottom: 44px;
+}
+.bars .progress .progress-bar {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+.bars .progress-info {
+    margin-top: -26px;
+}
+.bars .progress-info span {
+    height: 100%;
+}
+.bars .progressbar-text {
+    font-family: 'league_spartanbold';
+    font-size: 30px;
+    color: #191f2e!important;
+}
+.bars .progress-circle {
+    width: 155px;
+    height: 155px;
+    margin: 0 auto 24px;
+    text-align: center;
+}
+.bars .progress-title {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 18px;
+    color: #464646;
+    margin-bottom: 7px;
+    text-align: center;
+}
+.bars .progress-desc {
+    color: rgba(70, 70, 70, 0.9);
+    font-size: 15px;
+    line-height: 19px;
+    text-align: center;
+    padding: 0 15px;
+}
+.bars .progress-item-circle,
+.bars .progress-item-line {
+    margin-bottom: 20px;
+}
+.bars .progress-item-circle {
+    float: left;
+}
+.col-xs-12 .progress-item-circle {
+    width: 25%;
+}
+.col-sm-6 .progress-item-circle {
+    width: 50%;
+}
+.col-sm-6 .progress-item-circle:nth-child(odd){
+    padding-left: 0px;
+}
+.col-sm-6 .progress-item-circle:nth-child(even) {
+    padding-right: 0px;
+}
+.bars .progress-line svg {
+    height: 10px;
+    position: relative;
+}
+.bars .progress-line,
+.bars .progress-item-line {
+    position: relative;
+}
+.bars .progress-item-line .progress-title {
+    font-size: 15px;
+    line-height: 15px;
+    color: #191f2e;
+    float: left;
+    padding-left: 3px;
+}
+.bars .progress-value {
+    font-size: 12px;
+    line-height: 12px;
+    color: #191f2e;
+    float: right;
+    border-bottom: 1px solid #191f2e;
+    padding-bottom: 2px;
+    position: relative;
+}
+.bars .progress-value:after {
+    background: #fff;
+    content: "";
+    display: block;
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    border-right: 1px solid #191f2e;
+    border-bottom: 1px solid #191f2e;
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    left: 50%;
+    margin-left: -2.5px;
+    bottom: -3px;
+}
+
+.bars .progress-rounded,
+.bars .progress-rounded .progress-bar {
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+}

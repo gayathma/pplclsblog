@@ -1,0 +1,64 @@
+#accordion {
+  border: 1px solid #eaeaea;
+  clear: both;
+}
+
+#accordion .ui-accordion-header {
+  position: relative;
+  font-size: 16px;
+  font-weight: normal;
+  color: #333333;
+  background: #ffffff;
+  padding: 25px 30px 27px;
+  margin: 0;
+  cursor: pointer;
+  border-top: 1px solid #eaeaea;
+  border-bottom: 1px solid transparent;
+
+}
+
+#accordion .ui-accordion-header:focus {
+  outline: medium none;
+}
+
+#accordion .ui-accordion-header:first-child {
+  border-top: none;
+}
+
+#accordion .ui-accordion-header.ui-accordion-header-active {
+  background: none;
+  border-bottom: 1px solid #eaeaea;
+}
+
+#accordion .ui-accordion-header .ui-icon {
+  background: url("../images/plus-accordion.png") no-repeat center;
+  position: absolute;
+  top: 26px;
+  right: 15px;
+  width: 15px;
+  height: 15px;
+}
+
+#accordion .ui-accordion-header.ui-accordion-header-active .ui-icon {
+  background: url("../images/minus-accordion.png") no-repeat center;
+  top: 26px;
+}
+
+#accordion .ui-accordion-content {
+  background-color: #fafafa;
+  padding: 0;
+  font-size: 15px;
+  line-height: 21px;
+  color: #696969;
+}
+
+#accordion .ui-accordion-content > p {
+  padding: 20px 30px 25px;
+  font-size: 15px;
+  line-height: 21px;
+  color: #696969;
+}
+
+#accordion .ui-accordion-content p:last-child {
+  margin-bottom: 0;
+}

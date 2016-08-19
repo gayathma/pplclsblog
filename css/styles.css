@@ -1,0 +1,110 @@
+section ol,
+section ul {
+  padding-left: 0px;
+}
+section ol li,
+section ul li {
+  list-style-type: none;
+  font-family: 'Cantarell', sans-serif;
+  font-size: 15px;
+  line-height: 17px;
+  margin: 19px 0;
+}
+/* Decimal */
+ol.decimal {
+  counter-reset: list 0;
+}
+ol.decimal li:before {
+  counter-increment: list;
+  content: counter(list) ".";
+  padding-right: 6px;
+  font-size: 15px;
+}
+/* End Decimal */
+
+/* Decimal leading zero */
+
+ol.decimal-leading-zero {
+  counter-reset: zlist 0;
+}
+ol.decimal-leading-zero li:before {
+  counter-increment: zlist;
+  content: counter(zlist);
+  font-size: 14px;
+  font-weight: bold;
+  padding-right: 11px;
+}
+ol.decimal-leading-zero li:nth-child(1):before,
+ol.decimal-leading-zero li:nth-child(2):before,
+ol.decimal-leading-zero li:nth-child(3):before,
+ol.decimal-leading-zero li:nth-child(4):before,
+ol.decimal-leading-zero li:nth-child(5):before,
+ol.decimal-leading-zero li:nth-child(6):before,
+ol.decimal-leading-zero li:nth-child(7):before,
+ol.decimal-leading-zero li:nth-child(8):before,
+ol.decimal-leading-zero li:nth-child(9):before {
+  content: "0" counter(zlist);
+}
+
+/* End Decimal leading zero */
+
+/* List check */
+
+ul.list-check li:before {
+  content: "\f00c";
+  font-size: 15px;
+  display: inline-block;
+  padding-right: 10px;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transform: translate(0, 0);
+}
+
+/* List point */
+
+ul.list-point li:before {
+  content: "•";
+  font-size: 15px;
+  padding-right: 10px;
+}
+
+/* End List point */
+
+/* List icons */
+ul.list-icons {
+  margin-left: 32px;
+}
+ul.list-icons li {
+  position: relative;
+}
+ul.list-icons li i {
+  font-size: 15px;
+  padding-right: 9px;
+}
+
+/* End List icons */
+
+/* List colors */
+.list-orange li i,
+.list-orange li:before {
+  color: #ff5723;
+}
+.list-dark-blue li i,
+.list-dark-blue li:before {
+  color: #191f2e;
+}
+.list-dark-gray li i,
+.list-dark-gray li:before {
+  color: #333333;
+}
+.list-yellow li i,
+.list-yellow li:before {
+  color: #e8ae58;
+}
+.list-cyan li i,
+.list-cyan li:before {
+  color: #80d9d2;
+}

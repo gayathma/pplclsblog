@@ -1,0 +1,142 @@
+/* Buttons */
+
+.bt {
+  font-family: 'Cantarell', sans-serif;
+  font-weight: bold;
+  white-space: nowrap;
+  display: inline-block;
+  text-transform: uppercase;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: all 0.2s ease 0s;
+  -moz-transition: all 0.2s ease 0s;
+  -o-transition: all 0.2s ease 0s;
+  -ms-transition: all 0.2s ease 0s;
+  transition: all 0.2s ease 0s;
+}
+.bt:hover,
+.bt:focus,
+.bt.focus {
+  text-decoration: none;
+  outline: none;
+}
+/* Buttons size*/
+
+.bt-small {
+  font-size: 11px;
+  line-height: 11px;
+  padding: 10px 20px;
+}
+.bt-medium {
+  font-size: 12px;
+  line-height: 12px;
+  padding: 12px 30px;
+}
+.bt-large {
+  font-size: 13px;
+  line-height: 13px;
+  padding: 18px 40px;
+}
+p a.bt {
+  margin: 5px 0;
+}
+/* Buttons color */
+
+.bt-orange {
+  background-color: #ff5723;
+  border: 1px solid #ff5723;
+  color: #fff;
+}
+.bt-orange:hover {
+  background-color: transparent !important;
+  border: 1px solid #ff5723;
+  color: #ff5723;
+}
+.bt-cyan {
+  background-color: #80d9d2;
+  border: 1px solid #80d9d2;
+  color: #fff;
+}
+.bt-cyan:hover {
+  background-color: transparent !important;
+  color: #80d9d2;
+  border: 1px solid #80d9d2;
+}
+.bt-blue {
+  background-color: #191f2e;
+  border: 1px solid #191f2e;
+  color: #fff;
+}
+.bt-blue:hover {
+  background-color: transparent !important;
+  color: #191f2e !important;
+  border: 1px solid #191f2e;
+}
+
+.bt-yellow {
+  background-color: #e8ae58;
+  border: 1px solid #e8ae58;
+  color: #fff;
+}
+.bt-yellow:hover {
+  background-color: transparent !important;
+  color: #e8ae58;
+  border: 1px solid #e8ae58;
+}
+
+.bt-br-orange {
+  background-color: transparent;
+  border: 1px solid #ff5723;
+  color: #ff5723;
+}
+.bt-br-orange:hover {
+  background-color: #ff5723 !important;
+  color: #fff;
+}
+.bt-br-cyan {
+  background-color: transparent;
+  border: 1px solid #80d9d2;
+  color: #80d9d2;
+}
+.bt-br-cyan:hover {
+  background-color: #80d9d2 !important;
+  color: #fff;
+}
+.bt-br-blue {
+  background-color: transparent;
+  border: 1px solid #191f2e;
+  color: #191f2e;
+}
+.bt-br-blue:hover {
+  background-color: #191f2e !important;
+  color: #fff;
+}
+.bt-br-yellow {
+  background-color: transparent;
+  border: 1px solid #e8ae58;
+  color: #e8ae58;
+}
+.bt-br-yellow:hover {
+  background-color: #e8ae58 !important;
+  color: #fff;
+}
+/* Button type */
+.bt-square {
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -khtml-border-radius: 3px;
+}
+.bt-round {
+  border-radius: 30px;
+  -moz-border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -khtml-border-radius: 30px;
+}
+/* End Button type */
+
